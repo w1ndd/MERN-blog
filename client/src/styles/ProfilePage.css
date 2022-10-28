@@ -1,0 +1,52 @@
+/* --------------------PROFILE -------------------------- */
+
+.profile-page-head{
+    min-height: 5rem;
+    padding: 2rem;
+    width: min(100% - 2rem, 41rem);
+    margin-inline: auto;
+    font-size: 1.3rem;
+}
+
+.display-none{
+    display: none;
+}
+
+.my-posts-button, .my-comments-button{
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    background-color: #00b80f;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.my-comments-div, .my-posts-div{
+    width: min(100% - 1rem, 45rem);
+    margin-inline: auto;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.comment-item{
+    border-radius: 15px;
+    padding: 2rem 1rem 0.5rem 1rem; 
+    margin-bottom: 2rem;
+    width: min(100% - 2rem, 40rem);
+    margin-inline: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    word-wrap: break-word;
+    font-size: 1.1rem;
+}
+
+.comment-item-date{
+    color: grey;
+}
+
+.h2{
+    margin: 2rem;
+}

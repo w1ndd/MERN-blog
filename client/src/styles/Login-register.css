@@ -1,0 +1,132 @@
+.login-page{
+    /* background: linear-gradient(to bottom, #009fff, #cbebff); */
+    background: #c9c9c9;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.login-container{
+    padding: 1rem;
+    width: 500px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    z-index: 0;
+    margin-top: 10%;
+}
+
+.login-container::before{
+    content: '';
+    position: absolute;
+    padding: 1rem;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    transform: rotate(-4deg);
+    inset: 0;
+    z-index: -1;
+}
+
+.login-header{
+    text-align: center;
+    padding-top: 1rem;
+    height: 120px;
+}
+
+.register-header{
+    text-align: center;
+    padding-top: 1rem;
+    height:72px;
+}
+
+.form-item{
+    text-align: center;
+    height: 3rem;
+}
+
+.form-item input{
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 0.6rem 4rem;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 16px;
+}
+
+/* BUTTONS */
+
+.div-register-buttons{
+    margin-top: 2rem; 
+    min-height: 150px;
+}
+
+.login-form-submit{
+    border: none;
+    font-size: 20px;
+    width: 80%;
+    border-radius: 15px;
+    background-color: #373737;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    color: white;
+    margin-left: 10%;
+    padding: 0.6rem;
+}
+
+.login-form-submit:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #00d415;
+    border: 2px solid #373737;
+}
+
+.login-form-submit:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 14px;
+}
+
+.login-form-submit:hover{
+    color: black;
+}
+
+.login-register-travel-link{
+    text-decoration: none;
+    color: #244dff;
+}
+
+.login-register-travel-div{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(0, 0, 0, 0.9);
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(0, 0, 0, 0.9);
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(0, 0, 0, 0.9);
+}
+

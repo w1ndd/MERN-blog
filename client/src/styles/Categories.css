@@ -1,0 +1,26 @@
+.categories-container{
+    display: flex;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.category-item{
+    max-width: 25rem;
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    word-wrap: break-word;
+    font-size: 1.2rem;
+}
+
+.remove-category-button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    cursor: pointer;
+    color: red;
+    font-size: 1rem;
+}
