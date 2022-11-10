@@ -5,12 +5,12 @@ MongoDB, Express(.js), React(.js), Node(.js) - Blog website
 
 ### Open 1st terminal
 ### `cd server`
-### `npm isntall`
+### `npm install`
 ### `npm start`
 
 ### Open 2nd termianl
 ### `cd client`
-### `npm isntall`
+### `npm install`
 ### `npm start`
 
 ### Open http://localhost:3000/ in browser
